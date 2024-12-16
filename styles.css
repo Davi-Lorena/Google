@@ -6,14 +6,41 @@ padding: 0;
 box-sizing: border-box;
 }
 
+input {
+    all: unset;
+}
+
+/* General */
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+gap: 1.5rem;
 & img {
     margin-top: 3rem;
+}
+
+& div#search-bar {
+border: 1px solid #dfe1e5;
+width: 33rem;
+border-radius: 1.75rem;
+padding: .75rem;
+display: flex;
+align-items: center;
+gap: .5rem;
+box-shadow: -1px 1px 10px #dfe1e5f8;
+cursor: pointer;
+transition: all 200ms ease;
+& input {
+    width: 100%;
+}
+
+&:hover {
+    box-shadow: -1px 1px 10px #00000039;
+}
+
 }
 
 }
