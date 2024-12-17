@@ -113,15 +113,21 @@ gap: 1.5rem;
 
 & div#search-bar {
 border: 1px solid #dfe1e5;
-width: 33rem;
+width: 36rem;
 border-radius: 1.75rem;
 padding: .75rem;
 display: flex;
 align-items: center;
-gap: .5rem;
+gap: 1rem;
 box-shadow: -1px 1px 10px #dfe1e5f8;
 cursor: pointer;
 transition: all 200ms ease;
+
+& img {
+    width: 1.25rem;
+   margin-block: auto;
+}
+
 & input {
     width: 100%;
 }
