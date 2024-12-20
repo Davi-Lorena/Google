@@ -223,3 +223,35 @@ cursor: pointer;
     }
 
 }
+
+
+@media (600px < width < 1024px) {
+    body {
+        height: 60vh;
+    }
+}
+
+@media (width <= 600px) {
+    body {
+        min-height: 60vh;
+    }
+    main {
+        & div#search-bar {
+            width: 90vw;
+        }
+    }
+}
+
+@media (width < 360px) {
+body {
+    height: 30rem;
+}
+
+nav {
+    & div {
+        text-wrap: nowrap;
+    }
+}
+
+
+}
