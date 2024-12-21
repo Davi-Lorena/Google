@@ -225,16 +225,13 @@ cursor: pointer;
 }
 
 
-@media (600px < width < 1024px) {
+@media (700px < width < 1024px) {
     body {
         height: 60vh;
     }
 }
 
-@media (width <= 600px) {
-    body {
-        min-height: 60vh;
-    }
+@media (width <= 700px) {
     main {
         & div#search-bar {
             width: 90vw;
