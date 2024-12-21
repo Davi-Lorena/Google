@@ -232,6 +232,9 @@ cursor: pointer;
 }
 
 @media (width <= 700px) {
+    body {
+        height: 90vh;
+    }
     main {
         & div#search-bar {
             width: 90vw;
