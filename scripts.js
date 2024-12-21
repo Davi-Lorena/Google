@@ -95,21 +95,51 @@ pencil.setAttribute("src", "./assets/pencil-blue.svg")
         });
         
         svg.removeAttribute("style");
+
+        figure.addEventListener("mouseenter", () => {
+            figure.style.backgroundColor = "rgba(60, 64, 67, .08)"
+             })
+             
+            figure.addEventListener("mouseleave", () => {
+                figure.style.backgroundColor  = "transparent"
+                 })
         
         loginDiv.removeAttribute("style");
+
+        loginDiv.addEventListener("mouseenter", () => {
+            loginDiv.style.filter = "brightness(1)"
+            })
         
         searchBar.removeAttribute("style");
         
         buttons.forEach(button => {
             button.removeAttribute("style");
+
+            button.addEventListener("mouseenter", () => {
+                button.style.border = "1px solid #dadce0"
+                 })
+                 
+                button.addEventListener("mouseleave", () => {
+                    button.style.border = "1px solid #f8f9fa"
+                     })
+
         });
         
         nightModeTitle.removeAttribute("style");
         
         personalizeButton.removeAttribute("style");
+
+        personalizeButton.addEventListener("mouseenter", () => {
+            personalizeButton.style.filter = "brightness(0.95)"
+            })
+            
+            personalizeButton.addEventListener("mouseleave", () => {
+                personalizeButton.style.filter = "brightness(1)"
+                })
+
+        pencil.setAttribute("src", "./assets/icon_pencil.svg");
         
         divCheckbox.removeAttribute("style");
         
-        pencil.setAttribute("src", "./assets/icon_pencil.svg");
     }
 })
