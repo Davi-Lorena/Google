@@ -227,7 +227,7 @@ cursor: pointer;
 
 @media (700px < width < 1024px) {
     body {
-        height: max(40rem, 60vh);
+        height: clamp(40rem, 60vh, 60vh);
     }
 }
 
