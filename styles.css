@@ -224,7 +224,6 @@ cursor: pointer;
 
 }
 
-
 @media (700px < width < 1024px) {
     body {
         height: clamp(40rem, 60vh, 60vh);
